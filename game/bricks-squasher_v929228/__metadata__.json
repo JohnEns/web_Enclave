@@ -1,0 +1,85 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": null, 
+    "author": "primarygames", 
+    "author_link": "https://www.mochimedia.com/community/profile/primarygames", 
+    "categories": [
+        "Action"
+    ], 
+    "category": "Action", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"fire\": \"na\", \"jump\": \"na\", \"movement\": \"na\"}", 
+    "controls": [
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "na"
+        ]
+    ], 
+    "created": "2012-11-21T17:55:16-08:00", 
+    "description": "Arcade game lovers, come and enjoy the addicting remake of classic arkanoid! Your goal in this game is to use the paddle to bounce the pinball so as to hit and destroy the bricks. When the game opens, 60 pieces of bricks will divided into 6 rows. The pinball is placed on the paddle at the bottom of the play area. Simply click the pinball to start the game, then move your mouse to control the paddle. You may make use of the walls for better rebounds. Some of the bricks contain special powers, and when they are hit, those powers will come into effect. A brick marked with a pinball will give you an extra ball, but then you will need to control all of the pinballs at the same time. A brick with two arrows facing each other will narrow the paddle, while the one with two arrows in opposite directions will widen the paddle. The game ends when all of your pinballs are lost, so guide them with skills until all bricks are destroyed!", 
+    "developer": "primarygames", 
+    "developer_url": "https://www.mochimedia.com/community/profile/primarygames", 
+    "feed_approval_created": "2013-04-01T14:03:18-08:00", 
+    "game_tag": "a0cb1d5833123380", 
+    "game_url": "http://www.mochimedia.com/games/bricks-squasher_v929228", 
+    "height": 400, 
+    "instructions": "", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 0.0, 
+    "name": "Basic Arkanoid", 
+    "rating": "Everyone", 
+    "recommendation": 2, 
+    "recommended": false, 
+    "resolution": "600x400", 
+    "screen1_thumb": null, 
+    "screen1_url": null, 
+    "screen2_thumb": null, 
+    "screen2_url": null, 
+    "screen3_thumb": null, 
+    "screen3_url": null, 
+    "screen4_thumb": null, 
+    "screen4_url": null, 
+    "slug": "bricks-squasher_v929228", 
+    "stage3d": false, 
+    "swf_file_size": 159892, 
+    "swf_url": "http://games.mochiads.com/c/g/bricks-squasher_v929228/arkanoid.swf", 
+    "tags": [
+        "arcade", 
+        "arkanoid", 
+        "ball", 
+        "bounce", 
+        "brick", 
+        "classic", 
+        "paddle", 
+        "pinball", 
+        "rebound", 
+        "squash", 
+        "wall", 
+        "action games", 
+        "bricks squasher", 
+        "classic games", 
+        "Action Games", 
+        "Classic Games", 
+        "en"
+    ], 
+    "thumbnail_large_url": "http://games.mochiads.com/c/g/bricks-squasher_v929228/_thumb_200x200.png", 
+    "thumbnail_url": "http://games.mochiads.com/c/g/bricks-squasher_v929228/_thumb_100x100.png", 
+    "updated": "2013-04-01T14:03:47-08:00", 
+    "uuid": "38aa057b-ddb1-38bc-a932-62c15109d2b1", 
+    "video_url": null, 
+    "width": 600, 
+    "zip_url": "http://games.mochiads.com/c/g/bricks-squasher_v929228.zip"
+}

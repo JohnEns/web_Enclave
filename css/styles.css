@@ -1,0 +1,644 @@
+body, div, p, article, header, footer, section, nav, menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0 none;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+
+}
+
+article, header, footer, section, nav {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+    padding-left: 8px;
+}
+
+blockquote, q {
+    quotes: none;
+}                
+
+
+#content-wrapper {
+    min-width: 800px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 5px #BBB;
+}
+
+
+#main-navigation {
+    text-align: center;
+    background-image: url('../img/opmaak/background_headr.jpg');
+    /*justify-content: center;*/
+    height: 125px;
+    border:1px solid;
+     color: #F5F5F5;
+}
+
+#main-navigation-data {
+    text-align: center;
+    background-image: url('../img/opmaak/fractll.jpg');
+    /*justify-content: center;*/
+    height: 125px;
+    border:1px solid;
+    color: #F5F5F5;
+
+}
+
+#main-navigation h2 {
+    margin: 0;
+}
+
+#main-menu > li, #footer-menu > li {
+    display: inline-block;
+}
+
+#bar-bar {
+      text-align: center;  
+}
+
+
+.sub > li {
+    display: inline-block;
+ }
+ 
+.sub > li {
+ background: #ccffff;
+  font-size: 14pt;
+ padding: 10px;
+ margin: 8px;
+} 
+ 
+ 
+ 
+/*
+#bar-bar {
+        text-align: center;
+    float: left;
+     width: 100%;
+}
+
+#bar-bar > ul, li {
+    float: left;
+}
+
+#bar-bar > ul {
+    display: inline-block;
+   position: relative;
+ left: 50%;  
+}
+
+#bar-bar > li {
+        display: inline-block;
+   position: relative;
+ left: -50%;  
+}
+
+#bar-bar > li {
+ background: blue;
+ padding: 10px;
+ margin: 8px;
+}
+
+#bar-bar {
+    font-size: 14pt;
+    color: #FF3399;
+     display: inline-block;
+}
+
+#bar-bar > ul {
+ margin: 5px;
+ border: 1px solid yellow; 
+}*/
+
+
+#main-menu > li {
+    font-size: 16pt;
+    padding: 8px;
+}
+
+li > a {
+    text-decoration: none; /* Haalt de underline bij links weg die direct onder een list item zitten */
+   
+}
+
+#headmenu > li > a {
+  color: #F5F5F5;
+}
+
+footer {
+    min-width: 800px;
+    max-width: 1400px;
+    color: #FFF;
+    /*background-image: url('../img/opmaak/leave_site.png');*/ 
+    background: linear-gradient(to bottom, #222, #BBB);
+
+}
+
+#footer-menu {
+    /*width: 100%;*/
+}
+
+#footer-menu > li {
+    font-size: 10pt;
+    text-align: left;
+    padding: 4px;
+}
+
+#footer-menu > li > a {
+    color: #FFF;
+    /*color: red;*/
+
+}
+
+.foot-pic {
+    float: right;
+}
+
+.copyright-notice {
+    text-align: center;
+    font-size: 10pt;
+    padding-bottom: 4px;
+}
+
+#kop{
+    font-size: 22pt;
+    color: #FFF;
+
+}
+
+#left-side-bar {
+    min-width: 250px;
+    background-color: #BBB;
+    max-width: 275px;
+    font-size: 80%;
+
+    /*position: fixed;*/
+    /*align-self: stretch;*/
+}
+
+#left-side-bar > ul{
+    position: fixed;
+    max-height: 320px;
+
+    overflow-y: auto;
+}
+
+#left-side-bar > ul > li {
+    /*margin-top: 4px;*/
+    /*font-size: 20pt;*/
+    line-height: 2;
+    padding-bottom: 10px;
+    border-bottom: white;
+    /*white-space: nowrap;*/
+    /*background: linear-gradient(to bottom, #BBB, #EEE, #BBB);*/
+}
+
+/*#left-side-bar > ul > li:nth-child(odd) { 
+    background: linear-gradient(to bottom, #EEE, #666, #EEE);
+}*/
+
+
+#left-side-bar > ul > li:first-child {
+    margin-top: 0;
+
+}
+
+#side-bar {
+    min-width: 230px;
+    max-width: 240px;
+
+}
+
+#side-bar  li ul {
+    display:none;
+
+}
+
+#side-bar li:hover ul{
+    display:inline-block;
+
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul.imagelist {
+    width: 450px;
+    float: right;
+}
+
+ul.booklist {
+    width: 200px;
+    float: left;
+}
+
+ul.vidlist {
+    width: 450px;
+    float: left;
+}
+
+/*h1, h3 {color: red;}
+h2 {color: green;
+    text-align: center; }
+
+h3 {text-align: center;}	*/
+
+h1{
+    color: red;
+}
+
+h2{
+    margin-bottom:  0;
+}
+/*
+#textall{
+    min-width: 550px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*a:visited {
+    color: green;
+}*/
+
+a:hover {
+    color: pink;
+}
+
+
+a:active {
+    color: white;
+} 	
+
+.item {
+    min-height: 300px;
+    /*max-height: 580px;*/
+    /*    border-top-color:  black;
+        border-bottom-color: black;
+        border-bottom-width: 2px;*/
+}
+
+.itemdub {
+    min-height: 610px;
+}
+
+.itemprt {
+    min-height: 320px;
+}
+
+
+.itembk {
+    min-height: 211px;
+}
+
+.news{
+    /*height: 600px;*/
+}
+
+.text {
+
+}
+
+/*.review{
+    display: flex;
+    flex-direction: row;
+}*/
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+.titel{
+    padding-left: 10px;
+
+}
+
+.info{
+    margin-left: 455px;
+    padding-left: 10px;
+}
+
+.bkinfo{
+    margin-left: 205px;
+    padding-left: 10px;
+}
+
+
+article.review {
+    width: auto;
+}
+
+article {
+    padding-left: 10px;
+
+
+}
+/*article.review {
+    display: flex;
+    flex-direction: row;
+}
+
+article.review >p {
+    width: auto
+}                        
+
+article.review > ul {
+    width: 450px;
+}*/
+
+#boven {
+    margin: 0px;
+    padding: 0px;
+       position: relative;
+    top: -139px;
+    visibility: hidden;
+}	
+
+ul#headmenu li {
+    display: inline;
+    /* background: rgb(54, 25, 25); */
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 18pt;
+    /*margin:0 0 10px 0;*/ 
+    color: yellow;
+    padding: 10px 20px;
+}
+
+ul#headmenu li a:hover {
+    color: gray;
+
+}
+
+/*ul#side {
+    list-style-type: none;
+}*/
+/*
+ul#side li {	
+    padding: 20px 0 0 0; 
+    margin-top: 0;
+}*/
+
+/*ul#footmenu li {
+    display: inline;
+     background: rgb(54, 25, 25); 
+    background: rgba(0, 0, 0, 0.6);
+    color: yellow;
+    padding: 10px 20px;
+}*/
+
+
+.side-bar {
+    font-size: 20pt;
+    /*background-color: lightgray;
+        background-image: url('../img/opmaak/green-plant.png');
+        border:1px solid;*/
+}
+
+.drop:after {
+    content: "";
+    display: table;
+
+}
+
+.side-bar ul li:hover, .side-bar ul li:focus, .side-bar ul li:active > ul{
+    display:block;
+}
+
+.side-bar ul li:after {
+    content: "\25BC";
+    font-size: .5em;
+    display: block;
+
+}
+/*
+a.anchor {
+    display: block;
+    position: relative;
+    top: -139px;
+    visibility: hidden;
+}*/
+
+a.twitter-timeline {
+    height: 600px;
+
+
+}
+
+
+#twitter{
+    width: 350px;
+    border: 3px;
+
+}
+
+.plus {
+    text-align: left; 
+    list-style-image: url('..img/opmaak/pluspunt.png');
+
+}
+
+
+.plus li {
+
+    margin-left: 15px;
+}
+
+.plus, .min {
+    /*left: 250px;*/
+    width: 25%;
+    display: inline-block; 
+    /*margin-left: 10px;*/
+
+}
+
+img.medium, iframe.youtube {
+    width: 450px;
+    height: 280px;
+    padding: 0;
+    /*margin: 0;*/
+    border: 1px solid black;
+    /*    text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;*/
+    /*position: relative;*/
+    bottom: 4px;
+    /*    clear: left;
+        z-index: 2;*/
+}
+
+img.small {
+    /*max-width: 230px;*/
+    max-height: 165px;
+    padding: 0px;
+    margin-right: 30px; 
+    margin-left: 30px; 
+    border: 1px solid black;
+    /*text-align: left;
+       margin-left: 10px;
+       margin-right: 10px;
+   position: relative;
+   bottom: 4px;*/
+}
+
+img.mini {
+    /*max-width: 230px;*/
+    max-height: 100px;
+    padding: 0px;
+    margin-right: 20px; 
+    margin-left: 30px; 
+    border: 1px solid black;
+    /*text-align: left;
+       margin-left: 10px;
+       margin-right: 10px;
+   position: relative;
+   bottom: 4px;*/
+}
+
+img.fruit {
+    width: 200px;
+    height: 250px;
+    padding: 0px;
+    margin-right: 30px; 
+    margin-left: 30px; 
+    border: 1px solid black;
+    /*text-align: left;
+       margin-left: 10px;
+       margin-right: 10px;
+   position: relative;
+   bottom: 4px;*/
+}
+
+
+img, iframe{
+    margin-right: -160px;
+    padding: 0;
+
+}
+
+table td {
+    text-align: center;
+}
+
+table.book td.rr {
+    text-align: right;
+}
+
+table.book td.ll {
+    text-align: left;
+}
+
+#colorpick {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 320px; 
+}    
+
+#colorpick td {
+    border: 1px solid black;
+    width: 115px;
+}
+
+#fruitreeks {
+    color: greenyellow;
+    background-color: gray;
+    text-align: center;
+}
+
+button {
+    padding: 6px;
+    border-radius: 3px;
+    box-shadow: 1px 3px 5px rgba(200,200,200,.5);
+    font-size: 16pt;
+    min-width: 75px;
+}
+
+#photoviewer {
+
+    clear:both; 
+
+}
+
+.photo-link {
+    padding:5px; 
+    margin:5px; 
+    border:1px solid #ccc; 
+    display:block; 
+    width:200px; 
+    float:left; 
+}
+
+.photo-link:hover	{ 
+    border-color:#999; 
+}
+
+#login {
+    float: right;
+    right: 5px;
+    color: #F5F5F5;
+    font-size: 14pt;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#login > a{
+    color: #F5F5F5;
+}
+
+.logg {
+    text-align: right;
+}
+
+/*.register {
+    list-style-image: url(img/opmaak/pluspunt.png);
+     padding-left: 1400px;
+    
+}*/
+
+
+/*
+p {min-width: 600px;}
+
+img.medium,p   
+{ 
+    min-width: 65%;
+    display: inline-block; 
+    margin: 2px;
+}*/
+
+
+/*
+iframe.youtube {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 450px;
+    height: 280px;
+}*/
+
+
+/*#footer {
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    background-image: url('../img/opmaak/background_footr.jpg');
+    background-color: rgba(245,137,64,.8); 
+    height: 22px;
+    bottom: 0px;	
+    z-index: 10;
+    border:1px solid;
+}*/

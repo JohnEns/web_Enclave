@@ -1,0 +1,44 @@
+Sword Art Online Re: Hollow Fragment
+
+
+The Incredible Adventures of Van Helsing - Final Cut
+
+
+share url
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="PoeHao">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+follow Poehao
+<a href="https://twitter.com/PoeHao" class="twitter-follow-button" data-show-count="false">Follow @PoeHao</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+		<h2>Blog</h2>
+		<p>Het ei dat eruit moet.<br />
+		Columns, schrijfsels en blijfsels.
+		</p>
+		
+		
+		<p>En natuurlijk zijn we er nog niet. Er komt een toegewijd YouTube-kanaal met reviews en meer. Ook is er de optie om ook boekbesprekingen op te nemen.<br />
+		Wat je niet zal vinden zijn persoonlijke zaken. Alleen persoonlijke meningen.
+
+
+            <a class="twitter-timeline"  href="https://twitter.com/PoeHao" data-widget-id="644226378049691648">Tweets by @PoeHao</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+220
+150
+
+1920
+
+
+
+
+<meta name="description"
+content="Game Gaming Gear" />
+<meta name="keywords"
+content="gaming, game, opinion, pc, console, playstation, xbox" />
+<meta name="robots"
+content="nofollow" />
+<meta http-equiv="author"
+content="Jon Duckett" />

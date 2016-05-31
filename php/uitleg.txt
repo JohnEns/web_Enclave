@@ -1,0 +1,31 @@
+DB.php -> connectie maken met MySQL
+SqlBuilder.php -> Class om makkelijk SQL statements te bouwen
+
+MySQL db connectie maken:
+$dbConn = new DB("localhost", "username", "password", "dbname");
+$val = $dbConn->getValue(sqlStatement); // alleen 1e waarde uit 1e rij van het resultaat
+$row = $dbConn->getRow(sqlStatement); // alleen 1e rij uit het resultaat
+$dataset = $dbConn->exec(sqlStatement); // gehele resultaat
+$dbConn->exec(sqlStatement); // statements zonder resultaat (update, insert, delete, etc)
+if($dbConn->getLastError() != null) { print("oj ellende"); }
+
+SqlBuilder gebruiken
+$sql = new SqlBuilder("TableName");
+$sql->select("col1, col2, col3");
+print($sql->toString()); // resultaat: SELECT col1, col2, col3 FROM TableName;
+
+$sql = new SqlBuilder("TableName");
+$sql->insert("col1", "value");
+$sql->insert("col2", 100);
+$sql->toString(); // resultaat: INSERT INTO TableName (col1, col2) VALUES('value', 100);
+
+$sql = new SqlBuilder("TableName");
+$sql->update("col1", "new_value");
+$sql->update("col2", 200);
+$sql->where("col1", "value");
+$sql->toString(); // UPDATE TableName SET col1='new_value', col2=200 WHERE col1='value';
+
+$sql = new SqlBuilder("Articles");
+$sql->select("id, title, author, datemodified, datecreated, content");
+$sql->orderBy("datemodified", 20);
+$sql->toString(); // SELECT id, title, author, datemodified, datecreated, content FROM Articles ORDER BY datemodified LIMIT 20;

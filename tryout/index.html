@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>PoeHao's Dojo</title>
+	<meta charset="UTF8">
+	<style>
+		/* Zorg dat je niet verrast wordt door browser default instellingen. Webdevelopers gebruiken het volgende als template: http://meyerweb.com/eric/tools/css/reset/ */
+		body, div, p, article, header, footer, section, nav, menu {
+			display: block;
+			margin: 0;
+			padding: 0;
+			border: 0 none;
+			outline: 0 none;
+			/* Probeer eerst Segoe UI (Windows UI font), niet aanwezig, gebruik Helvetica Neue (MacOS UI font), anders Arial, als dat ook niet werkt pak een standaard sans-serif font */
+			font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+		}
+
+		/* Zorg dat HTML5 tags ook in oude browsers werken zoals bedoeld (zie eveneens CSS reset) */
+		article, header, footer, section, nav {
+			display: block;
+		}
+
+		ul {
+			list-style: none;
+			padding-left: 8px;
+		}
+
+		#content-wrapper {
+			min-width: 800px;
+			max-width: 1400px;
+			margin-left: auto;
+			margin-right: auto;
+			box-shadow: 0 3px 5px #BBB;
+		}
+
+		#main-navigation {
+			text-align: center;
+		}
+
+			#main-navigation h2 {
+				margin: 0;
+			}
+
+		#main-menu > li, #footer-menu > li {
+			display: inline-block;
+		}
+
+		/* Pak alleen de <menuitem> elementen die -direct- onder #main-menu vallen */
+		#main-menu > li {
+			font-size: 16pt;
+			padding: 8px;
+		}
+
+		li > a {
+			text-decoration: none; /* Haalt de underline bij links weg die direct onder een list item zitten */
+		}
+
+		footer {
+			color: #FFF;
+			background: linear-gradient(to bottom, #222, #999);
+		}
+
+		#footer-menu {
+			width: 100%;
+		}
+
+			#footer-menu > li {
+				font-size: 10pt;
+				text-align: left;
+				padding: 4px;
+			}
+
+				#footer-menu > li > a {
+					color: #FFF;
+				}
+
+		.copyright-notice {
+			text-align: center;
+			font-size: 10pt;
+			padding-bottom: 4px;
+		}
+
+		#left-side-bar {
+			width: 250px;
+		}
+
+			#left-side-bar > ul > li {
+				margin-top: 4px;
+			}
+
+				#left-side-bar > ul > li:first-child {
+					margin-top: 0;
+				}
+
+		#main-content {
+			display: flex;
+			flex-direction: row;
+		}
+	</style>
+</head>
+<body>
+	<div id="content-wrapper">
+		<header>
+			<nav id="main-navigation">
+				<h2>PoeHao's Dojo</h2>
+				<ul id="main-menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Previews</a></li>
+					<li><a href="#">Reviews</a></li>
+					<li><a href="#">Videos</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="main-content">
+			<!-- Dit is de side bar menu -->
+			<aside id="left-side-bar">
+				<ul class="side-bar">
+					<li><a href="#">Linkje 1</a></li>
+					<li><a href="#">Linkje 2</a></li>
+					<li><a href="#">Linkje 3</a></li>
+					<li><a href="#">Linkje 4</a></li>
+					<li><a href="#">Linkje 5</a></li>
+				</ul>
+			</aside>
+			<!-- Deze tag geeft de main content aan; mag slechts 1x voorkomen in een HTML document -->
+			<main>
+				<article class="review">
+					<h1>Een fraaie game</h1>
+					<p>Een beetje content kan geen kwaad.</p>
+				</article>
+				<article class="review">
+					<h1>Wat een kut game</h1>
+					<p>Meer content kan zeker geen kwaad.</p>
+				</article>
+			</main>
+		</section>
+		<footer>
+			<nav>
+				<ul id="footer-menu">
+					<li><a href="#">Legal notice</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">About us</a></li>
+				</ul>
+			</nav>
+			<div class="copyright-notice">&copy; 2015 PoeHao-San</div>
+		</footer>
+	</div>
+</body>
+</html>

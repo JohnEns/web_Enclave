@@ -1,0 +1,68 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"
+              content="Game Gaming Gear" />
+        <meta name="keywords"
+              content="gaming, game, opinion, pc, console, playstation, xbox" />
+        <title>Enclave Gaming - Blog</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div id="content-wrapper">
+            <header>
+                <nav id="main-navigation">
+                    <h2 id="kop">Enclave - Games, Gaming, Gear</h2>
+
+                    <ul id="headmenu">
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="nieuws.html">Nieuws</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav> 
+            </header>
+
+            <section id="main-content">
+                <aside id="left-side-bar">
+                    <ul id="side-bar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="nieuws.html">Nieuws</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+
+                    </ul>
+                </aside>
+
+
+
+                <main>	-->
+                
+                    
+                    
+                </main>	
+            </section>
+
+            <footer>
+                <nav>
+                    <ul id="footer-menu">
+                        <li><a href="mailto:PoeHaoSan@gmail.com">Contact</a></li>
+                        <li><a href="https://www.youtube.com/user/PoeHaoSan" target="_blank">YouTube</a></li>
+                        <li><a href="https://twitter.com/PoeHao" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/Poe.Hao.San" target="_blank">Facebook</a></li>
+                        <li><a href="http://frontpage.fok.nl/games" target="_blank">Fok-Games</a></li>
+
+                    </ul>
+                    <p>These links take you away</p>		
+                </nav>
+                <div class="copyright-notice">&copy; 2015 Poe Hao San</div>
+            </footer>	
+        </div>
+
+    </body>
+</html>

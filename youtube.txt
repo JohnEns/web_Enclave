@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Enclave Reviews</title>
+	</head>
+	<body>
+		<h1>Enclave - Games, Gaming, Gear</h1>
+		<h1>Reviews</h1>
+		<p>Hier zijn game-reviews.</p>
+		
+		<h2>Sword Art Online</h2>
+		<p>Vita<br />
+		PS4
+		</p>
+		
+		<h2>Van Helsing</h2>
+		<p>Final Cut op 23 september	
+		</p>
+		<hr />
+		<h2>Giana Sisters: Dream Runners</h2>
+		<p>Platform Racer<br />
+		Local co-op en online</p>
+		
+		<h2>Dragon Age: Inquisition Jaws of Hakkon</h2>
+		<p>Geniet.<br />
+		
+		</p>
+		
+	</body>
+</html>
